@@ -1,12 +1,13 @@
-# CMMC Controls
-CMMC controls formatted for usability.
+# US Government Controls
+US Government controls formatted for usability.
 
-This CSV reflects the current controls as described by the [CMMC_ModelMain_V1.02](https://www.acq.osd.mil/cmmc/docs/CMMC_ModelMain_V1.02_20200318.pdf) document uploaded by the Office of the Under Secretary of Defense for Acquisition & Sustainment (OUSD(A&S)). The main website can be found [here](https://www.acq.osd.mil/cmmc/index.html).
+ - [rmf-r4_all.csv](https://github.com/trevorbryant/usgov-controls/blob/master/rmf-r4_all.csv) - extracted and formatted from NIST [SP 800-53r4 transform](https://nvd.nist.gov/static/feeds/xml/sp80053/rev4/800-53-controls.txt).
+ - [csf-1.1_to_rmf-r4.csv](https://github.com/trevorbryant/usgov-controls/blob/master/csf-1.1_to_rmf-r4.csv) - extracted and formatted from NIST [Cybersecurity Framework v1.1](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf).
+ - [cisa_csf-1.1_to_rmf-r4_hva.csv](https://github.com/trevorbryant/usgov-controls/blob/master/cisa_csf-1.1_to_rmf-r4_hva.csv) - extracted and formatted from DHS [Securing High Value Assets](https://www.cisa.gov/sites/default/files/publications/Securing%20High%20Value%20Assets_Version%201.1_July%202018_508c.pdf).
+ - [cmmc_controls.csv](https://github.com/trevorbryant/usgov-controls/blob/master/cmmc_controls.csv) - extracted and formatted from [CMMC_ModelMain_V1.02](https://www.acq.osd.mil/cmmc/docs/CMMC_ModelMain_V1.02_20200318.pdf)
 
-The authors that upload the document include manual version control in the document title rather. The links to the document will break in further updates, which will need to be updated in this README as well.
-
-## USAGE
-This information is public and can be used for purposes relating to CMMC. Happy formatting.
+## Ownership
+The [information steward](https://csrc.nist.gov/glossary/term/information_steward) provides the information released for public viewing and is the authoritative source of the information used in this repository.
 
 ## Contributions
 Feel free to fork and contribute as updates or corrections are needed.
