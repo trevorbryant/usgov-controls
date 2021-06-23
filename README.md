@@ -3,16 +3,20 @@ US Government controls formatted for usability.
 
 ### Framework Controls
 
- - [rmf-r4_all.csv](https://github.com/trevorbryant/usgov-controls/blob/master/rmf-r4_all.csv) - All RMF controls extracted and formatted from the NIST [SP 800-53r4 transform](https://nvd.nist.gov/static/feeds/xml/sp80053/rev4/800-53-controls.txt).
+ - [rmf-r5_all.csv](https://github.com/trevorbryant/usgov-controls/blob/master/rmf-r5_all.csv) - All RMF controls extracted and formatted from the NIST [SP 800-53r5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final).
 
- - [csf-1.1_to_rmf-r4.csv](https://github.com/trevorbryant/usgov-controls/blob/master/csf-1.1_to_rmf-r4.csv) - CSF controls mapped to applicable RMF controls extracted and formatted from NIST [Cybersecurity Framework v1.1](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf).
+ - Cybersecurity Framework (CSF) and Privacy Controls are crosswalked from the [NIST Cybersecurity Framework and NIST Privacy Framework](https://csrc.nist.gov/CSRC/media/Publications/sp/800-53/rev-5/final/documents/csf-pf-to-sp800-53r5-mappings.xlsx).
 
- - [cisa_csf-1.1_to_rmf-r4_hva.csv](https://github.com/trevorbryant/usgov-controls/blob/master/cisa_csf-1.1_to_rmf-r4_hva.csv) - CISA assessed and recommended minimum controls for High Value Assets extracted and formatted from DHS [Securing High Value Assets](https://www.cisa.gov/sites/default/files/publications/Securing%20High%20Value%20Assets_Version%201.1_July%202018_508c.pdf).
+ - High Value Assets (HVA) are crosswalked by the Cybersecurity and Infrastructure Security Agency (CISA)'s [High Value Asset Control Overlay](https://www.cisa.gov/publication/high-value-asset-control-overlay).
 
- - [cmmc_controls.csv](https://github.com/trevorbryant/usgov-controls/blob/master/cmmc_controls.csv) - DOD CMMC controls extracted and formatted from [CMMC_ModelMain_V1.02](https://www.acq.osd.mil/cmmc/docs/CMMC_ModelMain_V1.02_20200318.pdf)
+ - Financial System Assets (FSA) are crosswalked by the Payment Card Industry(PCI) Security Standards Council's [Mapping PCI DSS v3.2.1 to the NIST Cybersecurity Framework v1.1](https://www.pcisecuritystandards.org/pdfs/Mapping-PCI-DSS-to-NIST-Framework.pdf). Unfortunately, this artifact is **not** updated to 800-53r5.
+
+ - Federal Public Key Infrastructure (FPKI) are crosswalked by the Federal Public Key Infrastructure Policy Authority (FPKIPA)'s [Security Control Overlay of NIST Special Publication 800-53 Revision 5 Security Controls for Federal PKI Systems](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-overlay-sp-800-53-2.pdf). This is currently a **draft** artifact.
 
 ## Ownership
 The [information steward](https://csrc.nist.gov/glossary/term/information_steward) provides the information released for public viewing and is the authoritative source of the information used in this repository.
+
+All of this information is publically available from the information owners.
 
 ## Contributions
 Feel free to fork and contribute as updates or corrections are needed.
