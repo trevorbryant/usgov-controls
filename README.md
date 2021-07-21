@@ -11,7 +11,7 @@ US Government controls formatted for usability.
 
  - Financial System Assets (FSA) are crosswalked by the Payment Card Industry(PCI) Security Standards Council's [Mapping PCI DSS v3.2.1 to the NIST Cybersecurity Framework v1.1](https://www.pcisecuritystandards.org/pdfs/Mapping-PCI-DSS-to-NIST-Framework.pdf). Unfortunately, this artifact is **not** updated to 800-53r5.
 
- - Federal Public Key Infrastructure (FPKI) are crosswalked by the Federal Public Key Infrastructure Policy Authority (FPKIPA)'s [Security Control Overlay of NIST Special Publication 800-53 Revision 5 Security Controls for Federal PKI Systems](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-overlay-sp-800-53-2.pdf). This is currently a **draft** artifact.
+ - Federal Public Key Infrastructure (FPKI) are crosswalked by the Federal Public Key Infrastructure Policy Authority (FPKIPA)'s [Security Control Overlay of NIST Special Publication 800-53 Revision 5 Security Controls for Federal PKI Systems](https://www.idmanagement.gov/docs/fpki-overlay-sp-800-53.pdf).
 
 ## Ownership
 The [information steward](https://csrc.nist.gov/glossary/term/information_steward) provides the information released for public viewing and is the authoritative source of the information used in this repository.
